@@ -7,7 +7,7 @@ WORKDIR "/data/wwof"
 
 ADD ["package.json", "./"]
 
-RUN apk add --no-cache --virtual make gcc g++ python && \
+RUN apk add --no-cache python make gcc g++ && \
     npm install && \
     npm install supervisor -g && \
     npm cache clean && \
