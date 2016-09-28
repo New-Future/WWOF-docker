@@ -3,7 +3,7 @@ MAINTAINER New Future <docker@newfuture.cc>
 
 LABEL Description="This image is used to start node with supervisor"
 
-WORKDIR "/data/wwof"
+WORKDIR "/newfuture/wwof"
 
 ADD ["package.json", "./"]
 
