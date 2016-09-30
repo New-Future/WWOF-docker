@@ -14,7 +14,7 @@ ENV BUILD_DEPS="curl make gcc g++ python linux-headers paxctl libgcc libstdc++ g
     NPM_PACKAGE="supervisor ws"
 
 #install nodejs
-RUN apk add  --no-cache --virtual build-dependencies ${BUILD_DEPS} &&\
+RUN apk add --no-cache --virtual build-dependencies ${BUILD_DEPS} &&\
   curl -sSL https://nodejs.org/dist/${NODE_VERSION}/node-${NODE_VERSION}.tar.gz | tar -zx && \
   cd node-${NODE_VERSION} && \
   ./configure --prefix=/usr ${NODE_CONFIG_FLAGS} && \

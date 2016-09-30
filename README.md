@@ -1,7 +1,6 @@
 # WWOF-docker
 
-[![](https://images.microbadger.com/badges/version/newfuture/wwof.svg)](https://hub.docker.com/r/newfuture/wwof/)
-![](https://images.microbadger.com/badges/image/newfuture/wwof.svg)
+[![](https://images.microbadger.com/badges/version/newfuture/wwof.svg)](https://hub.docker.com/r/newfuture/wwof/) ![](https://images.microbadger.com/badges/image/newfuture/wwof.svg)
 
 `newfuture/wwof` : the docker image for [WWOF](https://github.com/NewFuture/WWOF)
 

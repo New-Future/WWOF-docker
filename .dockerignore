@@ -1,5 +1,5 @@
 *.md
 .gitignore
 node_modules/
-
+LICENSE
 build.sh
