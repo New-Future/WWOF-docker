@@ -1,1 +1,1 @@
-docker build -t wwof .
+docker build -t newfuture/wwof .
